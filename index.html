@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>This is the game</h1>
+    <button id="unhide"><p class="button_text">LETS play</p></button>
+    <div class="hide">
+      <center>
+        <h1 id="time_left" class="timer_h"></h1>
+      </center>
+      <div class="about">
+        <p class="button_text">
+          About : There are 3 men and 3 devils on the left side. You have to
+          move all of them to right side alive. If men become minority on any
+          side, they will be killed by devils. Atlest one Man/Devil is needed to
+          move the boat. Click on _Devil_/__Man_ to get them in/out of the boat.
+        </p>
+      </div>
+      <div style="margin-top: 40px;">
+        <div class="main">
+          <button id="btnml1"><p id="ml1" class="button_text">__Man_</p></button>
+          <button id="btnml2"><p id="ml2" class="button_text">__Man_</p></button>
+          <button id="btnml3"><p id="ml3" class="button_text">__Man_</p></button>
+          <button id="btndl1"><p id="dl1" class="button_text">_Devil_</p></button>
+          <button id="btndl2"><p id="dl2" class="button_text">_Devil_</p></button>
+          <button id="btndl3"><p id="dl3" class="button_text">_Devil_</p></button>
+        </div>
+
+        <div class="main">
+          <button id="btnmr1"><p id="mr1" class="button_text">______</p></button>
+          <button id="btnmr2"><p id="mr2" class="button_text">______</p></button>
+          <button id="btnmr3"><p id="mr3" class="button_text">______</p></button>
+          <button id="btndr1"><p id="dr1" class="button_text">______</p></button>
+          <button id="btndr2"><p id="dr2" class="button_text">______</p></button>
+          <button id="btndr3"><p id="dr3" class="button_text">______</p></button>
+        </div>
+      </div>
+      <div class="boat">
+        <button id="boat1"><p id="boat1member" class="button_text">______</p></button>
+        <button id="boat2"><p id="boat2member" class="button_text">______</p></button>
+      </div>
+      <div class="footer">
+        <button id="to_left"><p class="button_text">Go Left</p></button>
+        <button id="to_right"><p class="button_text">Go Right</p></button>
+      </div>
+    </div>
+  </body>
+  <script src="scripts.js"></script>
+</html>

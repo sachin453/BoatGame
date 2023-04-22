@@ -1,0 +1,58 @@
+:root {
+  --x_y: 450px;
+  --op_hide: 0;
+  --timer: blue;
+}
+
+.hide {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: greenyellow;
+  opacity: var(--op_hide);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+.main {
+  display: inline;
+  margin-left: 200px;
+  margin-right: 20px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.boat {
+  background-color: skyblue;
+  width: 145px;
+  border-radius: 5px;
+  margin-left: var(--x_y);
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  width: 200px;
+  margin-left: 675px;
+}
+body {
+  width: 1500px;
+  height: 650px;
+  font-family: rockwell;
+  background-color: skyblue;
+}
+.about {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.timer_h {
+  color: var(--timer);
+}
+.button_text {
+  font-size: 15px;
+}
+
