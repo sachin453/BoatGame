@@ -57,6 +57,18 @@ document.getElementById('to_right').onclick = function () {
   if (document.getElementById('dl3').innerHTML == '_Devil_') {
     monsters_left += 1
   }
+  if (document.getElementById('boat1member').innerHTML == '_Devil_') {
+    monsters_right += 1
+  }
+  if (document.getElementById('boat2member').innerHTML == '_Devil_') {
+    monsters_right += 1
+  }
+  if (document.getElementById('boat1member').innerHTML == '__Man_') {
+    men_right += 1
+  }
+  if (document.getElementById('boat2member').innerHTML == '__Man_') {
+    men_right += 1
+  }
   var monsters_right = 3 - monsters_left
   var men_right = 3 - men_left
   if (men_right == 3 && monsters_right == 3) {
@@ -103,6 +115,18 @@ document.getElementById('to_left').onclick = function () {
   if (document.getElementById('dl3').innerHTML == '_Devil_') {
     monsters_left += 1
   }
+  if (document.getElementById('boat1member').innerHTML == '_Devil_') {
+    monsters_left += 1
+  }
+  if (document.getElementById('boat2member').innerHTML == '_Devil_') {
+    monsters_left += 1
+  }
+  if (document.getElementById('boat1member').innerHTML == '__Man_') {
+    men_left += 1
+  }
+  if (document.getElementById('boat2member').innerHTML == '__Man_') {
+    men_left += 1
+  }
   var monsters_right = 3 - monsters_left
   var men_right = 3 - men_left
   if (men_right == 3 && monsters_right == 3) {
@@ -118,6 +142,7 @@ document.getElementById('to_left').onclick = function () {
     root.style.setProperty('--timer', 'red')
     document.getElementById('time_left').innerHTML = 'You Lost!'
   }
+  console.log(men_left," hello ",monsters_left)
 }
 
 // boat buttons
